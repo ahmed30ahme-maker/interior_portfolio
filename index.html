@@ -1,136 +1,16 @@
-<!doctype html>
-<html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#171714">
-  <meta name="description" content="Interior design portfolio — timeless residential and commercial spaces.">
-  <title>Ahmed Sayed — Interior Designer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Interior Design Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Home">
-      <span class="brand-mark">AH</span><span class="brand-copy"><strong data-en="Ahmed Sayed" data-ar="أحمد سيد">Ahmed Sayed</strong><small data-en="INTERIOR DESIGNER" data-ar="مصمم داخلي">INTERIOR DESIGNER</small></span>
-    </a>
-    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
-    <nav class="nav">
-      <a href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
-      <a href="#projects" data-en="Projects" data-ar="المشاريع">Projects</a>
-      <a href="#about" data-en="About" data-ar="من أنا">About</a>
-      <a href="#services" data-en="Services" data-ar="الخدمات">Services</a>
-      <a href="#contact" data-en="Contact" data-ar="تواصل">Contact</a>
-    </nav>
-    <button class="lang-toggle" type="button" aria-label="Switch language">عربي</button>
-  </header>
-
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-image"></div>
-      <div class="hero-shade"></div>
-      <div class="hero-content">
-        <p class="eyebrow" data-en="SPACES THAT FEEL LIKE YOU" data-ar="مساحات تعبّر عنك">SPACES THAT FEEL LIKE YOU</p>
-        <h1 data-en="Designing better spaces for a brighter life." data-ar="نصمّم مساحات أجمل لحياة أفضل.">Designing better spaces for a brighter life.</h1>
-        <p class="hero-intro" data-en="Thoughtful interiors, timeless materials, and details that make everyday living extraordinary." data-ar="تصميمات داخلية مدروسة، وخامات خالدة، وتفاصيل تجعل الحياة اليومية أكثر جمالًا.">Thoughtful interiors, timeless materials, and details that make everyday living extraordinary.</p>
-        <a class="button button-light" href="#projects"><span data-en="Explore projects" data-ar="استكشف المشاريع">Explore projects</span><span aria-hidden="true">↗</span></a>
-      </div>
-      <div class="hero-note"><span>01 / 04</span><span data-en="INTERIOR ARCHITECTURE · GIAZ" data-ar="التصميم الداخلي · الجيزة">INTERIOR ARCHITECTURE · CAIRO</span></div>
-    </section>
-
-    <section class="section projects-section" id="projects">
-      <div class="section-heading">
-        <div><p class="eyebrow dark" data-en="SELECTED WORK" data-ar="أعمال مختارة">SELECTED WORK</p><h2 data-en="Spaces with a story." data-ar="مساحات لكل منها حكاية.">Spaces with a story.</h2></div>
-        <p class="section-desc" data-en="A selection of residential and commercial concepts shaped around the people who use them." data-ar="مجموعة من المشاريع السكنية والتجارية المصممة لتناسب الأشخاص الذين يعيشون ويعملون فيها.">A selection of residential and commercial concepts shaped around the people who use them.</p>
-      </div>
-      <div class="filters" role="group" aria-label="Filter projects">
-        <button class="filter active" data-filter="all" data-en="All projects" data-ar="كل المشاريع">All projects</button>
-        <button class="filter" data-filter="residential" data-en="Residential" data-ar="سكني">Residential</button>
-        <button class="filter" data-filter="commercial" data-en="Commercial" data-ar="تجاري">Commercial</button>
-      </div>
-      <div class="project-grid">
-        <article class="project-card" data-category="residential">
-          <button class="project-open" data-project="apartment" aria-label="View Modern Apartment project">
-            <span class="project-photo photo-apartment"></span><span class="project-meta"><span><strong data-en="Modern Apartment" data-ar="شقة عصرية">Modern Apartment</strong><small data-en="Residential · 2025" data-ar="سكني · ٢٠٢٥">Residential · 2025</small></span><span class="arrow">↗</span></span>
-          </button>
-        </article>
-        <article class="project-card" data-category="residential">
-          <button class="project-open" data-project="villa" aria-label="View Quiet Luxury Villa project">
-            <span class="project-photo photo-villa"></span><span class="project-meta"><span><strong data-en="Quiet Luxury Villa" data-ar="فيلا فاخرة وهادئة">Quiet Luxury Villa</strong><small data-en="Residential · 2024" data-ar="سكني · ٢٠٢٤">Residential · 2024</small></span><span class="arrow">↗</span></span>
-          </button>
-        </article>
-        <article class="project-card" data-category="commercial">
-          <button class="project-open" data-project="office" aria-label="View Creative Office project">
-            <span class="project-photo photo-office"></span><span class="project-meta"><span><strong data-en="Creative Office" data-ar="مكتب إبداعي">Creative Office</strong><small data-en="Commercial · 2025" data-ar="تجاري · ٢٠٢٥">Commercial · 2025</small></span><span class="arrow">↗</span></span>
-          </button>
-        </article>
-        <article class="project-card" data-category="residential">
-          <button class="project-open" data-project="calm-home" aria-label="View Calm Home project">
-            <span class="project-photo photo-calm"></span><span class="project-meta"><span><strong data-en="The Calm Home" data-ar="المنزل الهادئ">The Calm Home</strong><small data-en="Residential · 2024" data-ar="سكني · ٢٠٢٤">Residential · 2024</small></span><span class="arrow">↗</span></span>
-          </button>
-        </article>
-        <article class="project-card" data-category="commercial">
-          <button class="project-open" data-project="boutique" aria-label="View Boutique Studio project">
-            <span class="project-photo photo-boutique"></span><span class="project-meta"><span><strong data-en="Boutique Studio" data-ar="استوديو بوتيك">Boutique Studio</strong><small data-en="Commercial · Concept" data-ar="تجاري · تصور تصميمي">Commercial · Concept</small></span><span class="arrow">↗</span></span>
-          </button>
-        </article>
-        <article class="project-card" data-category="residential">
-          <button class="project-open" data-project="penthouse" aria-label="View City Penthouse project">
-            <span class="project-photo photo-penthouse"></span><span class="project-meta"><span><strong data-en="City Penthouse" data-ar="بنتهاوس المدينة">City Penthouse</strong><small data-en="Residential · Concept" data-ar="سكني · تصور تصميمي">Residential · Concept</small></span><span class="arrow">↗</span></span>
-          </button>
-        </article>
-      </div>
-      <p class="disclaimer" data-en="Portfolio demo: replace sample imagery and project descriptions with your own work before publishing." data-ar="نسخة تجريبية: استبدل الصور والأوصاف النموذجية بأعمالك الحقيقية قبل النشر.">Portfolio demo: replace sample imagery and project descriptions with your own work before publishing.</p>
-    </section>
-
-    <section class="about-section" id="about">
-      <div class="about-image"></div>
-      <div class="about-copy">
-        <p class="eyebrow" data-en="THE DESIGN APPROACH" data-ar="فلسفة التصميم">THE DESIGN APPROACH</p>
-        <h2 data-en="Beauty is in the way a space makes you feel." data-ar="جمال المكان في الشعور الذي يمنحك إياه.">Beauty is in the way a space makes you feel.</h2>
-        <p data-en="I’m Ahmed, an interior designer focused on creating balanced, functional, and deeply personal spaces. My process brings together the architecture, natural light, materials, and the rhythms of everyday life." data-ar="أنا أحمد، مصمم داخلي أركز على ابتكار مساحات متوازنة وعملية وشخصية. أجمع في عملي بين العمارة والإضاءة الطبيعية والخامات وتفاصيل الحياة اليومية.">I’m Ahmed, an interior designer focused on creating balanced, functional, and deeply personal spaces. My process brings together the architecture, natural light, materials, and the rhythms of everyday life.</p>
-        <a class="text-link" href="#contact"><span data-en="Let’s talk about your space" data-ar="لنتحدث عن مساحتك">Let’s talk about your space</span> <span>↗</span></a>
-      </div>
-    </section>
-
-    <section class="section services-section" id="services">
-      <div class="section-heading">
-        <div><p class="eyebrow dark" data-en="WHAT I DO" data-ar="ماذا أقدم">WHAT I DO</p><h2 data-en="From first sketch to final detail." data-ar="من أول فكرة إلى آخر تفصيلة.">From first sketch to final detail.</h2></div>
-        <p class="section-desc" data-en="A considered process that turns ideas into clear, buildable design." data-ar="منهج مدروس يحوّل الأفكار إلى تصميم واضح قابل للتنفيذ.">A considered process that turns ideas into clear, buildable design.</p>
-      </div>
-      <div class="services-grid">
-        <article class="service"><span class="service-number">01</span><h3 data-en="Interior Design" data-ar="التصميم الداخلي">Interior Design</h3><p data-en="Space planning, concept development, color palettes, and material selection." data-ar="تخطيط المساحات وتطوير الفكرة واختيار الألوان والخامات المناسبة.">Space planning, concept development, color palettes, and material selection.</p></article>
-        <article class="service"><span class="service-number">02</span><h3 data-en="3D Visualization" data-ar="التصور ثلاثي الأبعاد">3D Visualization</h3><p data-en="Detailed visualizations to help you experience the space before it is built." data-ar="تصورات واقعية تساعدك على تخيّل المكان قبل التنفيذ.">Detailed visualizations to help you experience the space before it is built.</p></article>
-        <article class="service"><span class="service-number">03</span><h3 data-en="Furniture & Styling" data-ar="الأثاث والتنسيق">Furniture & Styling</h3><p data-en="Furniture, lighting, art, and accessories that complete the atmosphere." data-ar="اختيار الأثاث والإضاءة واللوحات والإكسسوارات لإكمال أجواء المكان.">Furniture, lighting, art, and accessories that complete the atmosphere.</p></article>
-        <article class="service"><span class="service-number">04</span><h3 data-en="Design Consultation" data-ar="استشارات التصميم">Design Consultation</h3><p data-en="Practical guidance to make confident decisions about your interior." data-ar="إرشادات عملية تساعدك على اتخاذ قرارات واثقة بشأن تصميمك الداخلي.">Practical guidance to make confident decisions about your interior.</p></article>
-      </div>
-    </section>
-
-    <section class="contact-section" id="contact">
-      <div class="contact-intro"><p class="eyebrow" data-en="YOUR NEXT CHAPTER STARTS HERE" data-ar="مشروعك القادم يبدأ هنا">YOUR NEXT CHAPTER STARTS HERE</p><h2 data-en="Let’s create a space that feels like home." data-ar="لنصنع مساحة تشبهك وتشعرك بالراحة.">Let’s create a space that feels like home.</h2><p data-en="Tell me a little about your project and let’s explore what’s possible." data-ar="احكِ لي قليلًا عن مشروعك ولنستكشف الأفكار الممكنة معًا.">Tell me a little about your project and let’s explore what’s possible.</p></div>
-      <form class="contact-form" id="contactForm">
-        <label><span data-en="Your name" data-ar="الاسم">Your name</span><input name="name" required autocomplete="name" placeholder="Name / الاسم"></label>
-        <label><span data-en="Email address" data-ar="البريد الإلكتروني">Email address</span><input type="email" name="email" required autocomplete="email" placeholder="you@example.com"></label>
-        <label><span data-en="Tell me about your project" data-ar="حدثني عن مشروعك">Tell me about your project</span><textarea name="message" rows="3" required placeholder="A few details... / بعض التفاصيل..."></textarea></label>
-        <button class="button button-light" type="submit"><span data-en="Send inquiry" data-ar="إرسال الاستفسار">Send inquiry</span><span>↗</span></button>
-        <p class="form-note" data-en="This demo opens your email app. Add your email address in script.js to activate it." data-ar="هذه النسخة تفتح تطبيق البريد لديك. أضف بريدك في ملف script.js لتفعيلها.">This demo opens your email app. Add your email address in script.js to activate it.</p>
-      </form>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <a class="brand footer-brand" href="#home"><span class="brand-mark">AH</span><span class="brand-copy"><strong data-en="Ahmed Hassan" data-ar="أحمد حسن">Ahmed Hassan</strong><small data-en="INTERIOR DESIGNER" data-ar="مصمم داخلي">INTERIOR DESIGNER</small></span></a>
-    <p data-en="Thoughtful spaces. Timeless living." data-ar="مساحات مدروسة، وحياة أكثر جمالًا.">Thoughtful spaces. Timeless living.</p>
-    <span>© <span id="year"></span> Ahmed Hassan</span>
-  </footer>
-
-  <dialog class="project-modal" id="projectModal">
-    <button class="modal-close" aria-label="Close project details">×</button>
-    <div class="modal-image" id="modalImage"></div>
-    <div class="modal-content"><p class="eyebrow dark" id="modalCategory"></p><h2 id="modalTitle"></h2><p id="modalDescription"></p><p class="modal-note" data-en="Replace this sample text with the real brief, materials, and project details." data-ar="استبدل هذا النص التجريبي بوصف المشروع والخامات والتفاصيل الحقيقية.">Replace this sample text with the real brief, materials, and project details.</p></div>
-  </dialog>
-  <script src="script.js"></script>
+  <div id="root"></div>
+  
+  <script src="script.js" defer></script>
+  <script>(function(){function m(a){var h=a.getAttribute("href");if(!h)return;try{var u=new URL(h,document.baseURI);if((u.protocol==="http:"||u.protocol==="https:")&&u.host!==location.host){a.target="_blank";a.rel="noopener noreferrer";}}catch(e){}}function s(){document.querySelectorAll("a[href]").forEach(m);}if(document.readyState!=="loading"){s();}else{document.addEventListener("DOMContentLoaded",s);}document.addEventListener("click",function(e){var a=e.target&&e.target.closest&&e.target.closest("a[href]");if(a){m(a);}},true);})();</script>
+  
 </body>
 </html>
