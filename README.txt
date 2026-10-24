@@ -1,10 +1,8 @@
-Interior Design Portfolio — ملفات منفصلة
+Portfolio files split into three parts:
 
-الملفات:
-- index.html: هيكل الصفحة. افتحه بالمتصفح لمعاينة الموقع.
-- style.css: التنسيقات والألوان والتصميم.
-- script.js: كود JavaScript/React المسؤول عن التفاعلات.
+index.html - page structure
+style.css - styling and responsive layout
+script.js - JavaScript/React application code
 
-مهم: احتفظ بالملفات الثلاثة في نفس المجلد. افتح index.html في المتصفح.
-لتعديل التصميم، افتح style.css. ولتعديل التفاعلات، افتح script.js.
-هذه نسخة مفصولة من الملف المرفوع؛ كود JavaScript الأصلي المجمّع ما زال كما هو للحفاظ على عمل الموقع.
+Keep all three files in the same folder. Open index.html in a browser.
+The JavaScript is bundled/minified from the original file, so it is not yet rewritten into beginner-friendly source code.
